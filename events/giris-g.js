@@ -44,7 +44,7 @@ ctx.beginPath();
 	ctx.drawImage(avatar, 580, 55, 110, 110);
   
   
-  const attachment = new Discord.Attachment(canvas.toBuffer(), 'https://cdn.glitch.com/9369284e-7a7c-4936-ae9e-fc8a95446793%2F5677efc9-1cc2-4561-831c-7f013a04833f_4ec889505488448d78c0eb5c3b1f76b6-removebg-preview%20(1).png?v=1605877658267');
+  const attachment = new Discord.Attachment(canvas.toBuffer(), 'https://cdn.discordapp.com/attachments/769541529773015060/779332505144786985/5677efc9-1cc2-4561-831c-7f013a04833f_4ec889505488448d78c0eb5c3b1f76b6-removebg-preview_1.png');
   if (!member.guild.channels.get(memberChannel)) return
 
 
